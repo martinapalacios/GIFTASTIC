@@ -1,0 +1,87 @@
+/**External CSS Stylesheet**/
+
+body{ 
+    background-image:url("../images/HoustonSkyline.jpg");
+    background-size: 100%;
+    background-repeat: repeat-y;
+}
+
+.pointer {cursor: pointer;}
+
+.glow {
+	font-size: 40px;
+	color: #fff;
+	text-align: center;
+	padding: 20px;
+	margin-bottom: .5rem;
+	-webkit-animation: glow 1s ease-in-out infinite alternate;
+	-moz-animation: glow 1s ease-in-out infinite alternate;
+	animation: glow 1s ease-in-out infinite alternate;
+  }
+  
+  @keyframes glow {
+	from {
+	  text-shadow: 0 0 10px #418FDE, 0 0 20px #418FDE, 0 0 30px #418FDE, 0 0 40px #418FDE, 0 0 50px #418FDE, 0 0 60px #418FDE, 0 0 70px #418FDE;
+	}
+	
+	to {
+	  text-shadow: 0 0 20px #C8102E, 0 0 30px #C8102E, 0 0 40px #C8102E, 0 0 50px #C8102E, 0 0 60px #C8102E, 0 0 70px #C8102E, 0 0 80px #C8102E;
+	}
+  }
+
+button {
+	background-color: #418FDE;
+	color: #fff;
+    font-size:1.5em;
+    margin: 5px;
+	box-shadow: 5px 5px 5px #fff;
+	padding: 10px;
+}
+
+button:hover {
+	background-color: #ca1c05;
+}
+
+#search-Input{
+	font-size: 18px;
+	color: #418FDE;
+	padding: 5px;
+	border-color: #fff;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #28791d;
+    border-color: #fff;
+}
+
+img {
+	margin: 10px;
+	border: 5px solid #fff;
+}
+
+img:hover {
+	border: 5px solid #C8102E;
+}
+
+.labelbox {
+	background-color: #070707;
+	opacity: .9;
+}
+
+label {
+	font-size: 20px;
+	color: #fff;
+	padding: 15px;
+	text-shadow: 1px 1px #C8102E;
+}
+
+footer {
+	font-size: 18px;
+    width: auto;
+    margin-top: 20px;
+    padding: 20px;
+	color: #418FDE;
+	text-shadow: 1px 1px #C8102E;
+    text-align: center;
+}

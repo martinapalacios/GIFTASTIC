@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>MAP GifTastic</title>
+
+    <!--J Query Script-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <!--Bootstrap CSS-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+    <!--Link to style.css-->
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link href="https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+
+<body>
+
+    <!--Button Holder-->
+    <div class="container">
+            <div class="page-header">
+                <h1 class = glow>City with No-Limits!</h1>
+            </div>
+
+        <!-- Append Buttons  -->
+        <div id="buttonsView"></div>
+
+        <br>
+
+            <!--Form for adding Buttons-->
+            <form id="express-form">
+                <div class = labelbox>
+                <label for="search-Input">Search to get to know your city</label>
+                <input type="text" id="search-Input">
+                </div>
+            </form>
+        
+        <br>
+
+        <!--Submit Button-->
+        <div class="submitdiv">
+            <button type='submit' class="submit btn-lg btn-primary" id="addNewGif"><i class="" aria-hidden="true"></i>Submit</button>
+        </div>
+
+        <br>
+    
+            <!-- Gifs will Go here -->
+            <div id="gifView" data-state="still"></div>
+            </div>
+            <div id="expressDiv"></div>
+    </div> 
+
+    <footer>
+        <div class ="footcontainer">
+            &copy; Copyright MAP
+        </div>
+    </footer>
+
+    <!--Link to JS-->
+    <script src="assets/javascript/gifapp.js"></script>
+
+</body>
+</html>
