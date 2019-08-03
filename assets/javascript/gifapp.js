@@ -19,7 +19,7 @@ $(document).ready(function(){
     //on button click
     $(document).on('click', '.expression', function() {
     var knowledge = $(this).html(); 
-    var queryURL = "http://api.giphy.com/v1/gifs/search?q=" + knowledge + "&api_key=zFNg2Ag4OwvtOKIuK8OTzclS5fsaGlkc&limit=20";
+    var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + knowledge + "&api_key=zFNg2Ag4OwvtOKIuK8OTzclS5fsaGlkc&limit=20";
         
     $.ajax({
         url: queryURL, 
